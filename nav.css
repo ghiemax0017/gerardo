@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+   
+}
+
+
+.navbar {
+    width: 100%;  /* i'm assuming full width */
+    height: 100%; /* change it to desired width */
+    background-color: rgb(255, 255, 255);
+   
+   
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;    /* if you want it vertically middle of the navbar. */
+}
+
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+
+.navbar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 60px;        /* if you want it to take the full height of the bar */
+    line-height: 60px;    /* if you want it vertically middle of the navbar */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
+a:hover{
+    background-color: rgba(71, 163, 75, 0.363);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
